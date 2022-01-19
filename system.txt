@@ -1,0 +1,13 @@
+What is a version control system is and why is it important.?
+
+Version control software keeps track of every change to the code and coders can work as a team 
+with a synchronized document posted on a database. All kinds of mistakes or desire to go back to
+ earlier projects it can be done, developers can do it and compare earlier versions of the code 
+ to help with any problem they may have. 
+It is important to have a version to control and change your projects, but what is the most common
+ way to accomplish that? Well, a repository, or Git project, contains the entire collection of files 
+ and folders of any project, along with each file's correction history. 
+To use Git, it is essential to use characteristic commands to modify your project, copy it, etc so it
+is important to know how to manage those commands. 
+The current directory can be seen by typing the command "pwd". And you can change directories by using 
+the "cd" command and then by using the name of the directory to change to.
