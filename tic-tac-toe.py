@@ -1,12 +1,12 @@
 def main():
-    lets_play = player("")
+    lets_play = player_turn("")
     create_board = board()
     while not (you_win(create_board) or draw(create_board)):
         display(create_board)
         player_move(lets_play, create_board)
-        lets_play = player(lets_play)
-        display(create_board)
-        print("Good game!! You are amazing!. Thanks for playing!")
+        lets_play = player_turn(lets_play)
+    display(create_board)
+    print("\nGood game!! You are amazing!. Thanks for playing!")
 
 def board():
     board = []
@@ -15,7 +15,7 @@ def board():
     return board
 
 def display(board):
-    print(" %s | %s | %s" %(board[0], board[1], board[2]))
+    print("\n %s | %s | %s" %(board[0], board[1], board[2]))
     print('---+---+---')
     print(" %s | %s | %s" %(board[3], board[4], board[5]))
     print('---+---+---')
@@ -39,10 +39,10 @@ def draw(board):
 
 
 def player_move(player, board):
-    space = int(input(f"{player}'s turn to choose a space (1-9): "))
+    space = int(input(f"\n{player}'s turn to choose a space (1-9): "))
     board[space - 1] = player
 
-def player(turn):
+def player_turn(turn):
     if turn == "" or turn == "o":
         return "x"
     elif turn == "x":
