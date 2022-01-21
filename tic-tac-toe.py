@@ -6,7 +6,7 @@ def main():
         player_move(lets_play, create_board)
         lets_play = player_turn(lets_play)
     display(create_board)
-    print("\nGood game!! Thanks for playing!!")
+    print("\nGood game! Thanks for playing!")
 
 def board():
     board = []
