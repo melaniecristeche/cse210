@@ -18,7 +18,15 @@ I pushed my project again, but this time using git commands. It was a new experi
 These were the commands I used to push my project:
 
 git init
-git add -A
-git commit -m 'Added my project'
-git remote add origin git@github.com:/melaniecristeche/wdd230new-project.git
-git push -u -f origin master
+
+git add system.txt
+
+git status
+
+git commit -m 'system.txt changed'
+
+git status
+
+git push
+
+git log
