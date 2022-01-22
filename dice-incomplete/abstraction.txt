@@ -1,6 +1,0 @@
-What is abstraction and why is it important?
-
-"Abstraction is the process of turning complex ideas into simple ones. 
-It is removing characteristics from something so that only the essential ones remain."
-I read the example in the prepare content and I realise how important is for programmers
-to make things "simpler" and functional. 

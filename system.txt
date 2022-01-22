@@ -12,8 +12,10 @@ Git clone, Git status, Git add, Git commit, Git push) so it is important to know
 
 How did you use a version control system to develop the programs?
 
-I used the Version Control system to copy my tic tact toe game project file into the repository. First I created a 
-new repository called "cse210" through the interface in my personal account in GitHub, and then I copied it and push it the files into that repository. I also learned through the instructor´s video tutorial that git commands are essential and not difficult to learn. 
+I used the Version Control system to copy my tic tact toe game project file into the repository. First I created 
+a new repository called "cse210" through the interface in my personal account in GitHub, and then I copied it and 
+push it the files into that repository. I also learned through the instructor´s video tutorial that git commands 
+are essential and not difficult to learn. 
 I pushed my project again, but this time using git commands. It was a new experience for me. 
 These were the commands I used to push my project:
 
@@ -30,3 +32,14 @@ git status
 git push
 
 git log
+
+What is abstraction and why is it important?
+
+I understand as the concept of object-oriented programming that shows only important attributes and hides 
+unnecessary information. Abstraction is selecting data from a larger collection to show only pertinent details
+ of the object to the user. 
+I read the example in the prepare content and I realise how important is for programmers
+to make things "simpler" and "functional" to the user.
+So, in conclusion conceptual abstractions may be created by filtering the information content of a concept, selecting 
+only the aspects which are relevant for a particular subjectively valued purpose. 
+In my case, when I was getting into the "Dice" game, two classes are sufficiently enough to the structure of the game. 
